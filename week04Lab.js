@@ -43,9 +43,15 @@ Question 1: Declaring Let and Const variables`)
  * Step 2: Initialize two more variables using 'let' and set one value to your name, and the other to your friends name.
  *
  * ↓ YOUR CODE HERE ↓ */
+const food = 'Steak'
+const drink = 'CocaColaCoke'
+let myName = 'Nikki'
+let myFriendsName = 'Jenn'
+
+console.log(food, drink, myName, myFriendsName)
 
 //Question: Name a reason why you would use const instead of let.
-//Answer:
+//Answer: You don't want your name to be changed later with using LET, but Const means you cannot change it after you've saved it as a const. 
 
 /*---------------------------------- Template Literals -------------------------------------*/
 console.log(`-------------------------- 
@@ -57,6 +63,7 @@ Question 2: Template Literals`)
  *
  *
  * ↓ YOUR CODE HERE ↓ */
+console.log(`My friend ${myFriendsName}` & ${myName} are eating ${food} and drinking ${drink}`)
 
 //Question: How would the sentence you wrote look if you used string concatenation instead of template literals?
 //          console.log() your answer to check
